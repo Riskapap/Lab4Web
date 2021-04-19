@@ -482,7 +482,7 @@ pretium ac.</p>
 ```
 ![23](https://user-images.githubusercontent.com/56241285/115246462-1c594480-a150-11eb-998a-15dba8120a87.png)
 #### Hasil 
-![24](https://user-images.githubusercontent.com/56241285/115247048-a0abc780-a150-11eb-80fd-6e342e571115.png)
+![24](https://user-images.githubusercontent.com/56241285/115248545-f92f9480-a151-11eb-8a55-6dc8daa67f03.png)
 ### Menambahkan Layout pada menu Contact
 #### Membuat dokumen html dengan nama kontak.html. Setelah itu buat struktur dasar HTML
 ```
@@ -558,4 +558,4 @@ button :hover{
 ```
 ![26](https://user-images.githubusercontent.com/56241285/115247211-ccc74880-a150-11eb-928d-41c37a63a300.png)
 #### Hasil
-![27](https://user-images.githubusercontent.com/56241285/115247250-d5b81a00-a150-11eb-9940-c69d1819b029.png)
+![27](https://user-images.githubusercontent.com/56241285/115248634-106e8200-a152-11eb-8488-d77430e582a6.png)
