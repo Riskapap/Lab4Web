@@ -416,3 +416,146 @@ pretium ac.</p>
 ```
 ![20](https://user-images.githubusercontent.com/56241285/115240027-8c180100-a149-11eb-9c3c-c3df409c989e.png)
 ![21](https://user-images.githubusercontent.com/56241285/115240012-87ebe380-a149-11eb-8260-cc4714c79c97.png)
+## Pertanyaan dan Tugas
+1. Tambahkan Layout untuk menu About
+- buat single layout yang berisi deskripsi, portofolio, dll.
+2. Tambahkan Layout untuk menu Contact
+- yang berisi form isian: Nama, Email, Message, dll.
+## Jawab 
+### Tambahkan Layout untuk menu About
+#### Membuat dokumen html dengan nama about.html. Setelah itu buat struktur dasar HTML
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>About Me</h1>
+        </header>
+        <nav>
+            <a href="home.html" class="active">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="About.html">About</a>
+            <a href="Kontak.html">Kontak</a>
+        </nav>
+        <section id="introduce">
+            <div class="row">
+                <img src="Riska.jpg" title="Riskapap" alt="Riskapap" class="image-circle" width="230"style="float: left; border: 2px solid black;">
+                <h1>Hello!</h1>
+                <p>Nama saya Riska Puspa Anggraeni Putri. Saya adalah seorang mahasiswa dari <b>Universitas Pelita Bangsa</b> yang saat ini sedang
+                    mempelajari materi Layout CSS dalam mata kuliah <i>Pemrograman Web</i>.</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+```
+![22](https://user-images.githubusercontent.com/56241285/115243196-dcdd2900-a14c-11eb-8c6b-0ee4192b0962.png)
+#### Tambahkan di CSS
+```
+/* Introduce Panel */
+ #introduce{
+    background-color: #e4e4e5;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+}
+#introduce h1 {
+    margin-bottom: 10px;
+    font-size: 35px;
+    position: relative;
+    left: 15px;
+}
+#introduce p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding: 30px;
+    line-height: 25px;
+    position: relative;
+    left: 15px;
+}
+```
+![23](https://user-images.githubusercontent.com/56241285/115246462-1c594480-a150-11eb-998a-15dba8120a87.png)
+#### Hasil 
+![24](https://user-images.githubusercontent.com/56241285/115247048-a0abc780-a150-11eb-80fd-6e342e571115.png)
+### Menambahkan Layout pada menu Contact
+#### Membuat dokumen html dengan nama kontak.html. Setelah itu buat struktur dasar HTML
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Contact Me</h1>
+        </header>
+        <nav>
+            <a href="home.html" class="active">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+        <section id="kontak">
+            <div class="login">
+                <input type="text" placeholder="Your Name" class="input">
+                <input type="text" placeholder="Your Email Address" class="input">
+            </div>
+
+            <div class="subject">
+                <input type="text" placeholder="Subject" class="input">
+            </div>
+
+            <div class="msg">
+                <textarea class="area" cols="35" rows="10" placeholder="Your Message" class="input"></textarea>
+            </div>
+
+            <button type="submit"> Send </button>
+
+        </section>
+    </div>
+</body>
+</html>
+```
+![25](https://user-images.githubusercontent.com/56241285/115245600-4c541800-a14f-11eb-8eda-adf851fe7597.png)
+#### Tambahkan di CSS
+```
+/* Contact Panel */
+#kontak{
+    background-color: #e4e4e5;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+}
+.input,
+.msg, .area{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+button{
+    font-size: 14px;
+    background-color: #3f3f3f;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 8x;
+}
+button :hover{
+    opacity: 0,9;
+}
+```
+![26](https://user-images.githubusercontent.com/56241285/115247211-ccc74880-a150-11eb-928d-41c37a63a300.png)
+#### Hasil
+![27](https://user-images.githubusercontent.com/56241285/115247250-d5b81a00-a150-11eb-9940-c69d1819b029.png)
